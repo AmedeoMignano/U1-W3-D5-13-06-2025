@@ -711,6 +711,8 @@ const halfTree = (a) => {
   for (let i = 1; i <= a; i++) {
     console.log("*".repeat(i));
   }
+  // ciclo a partendo da 1, visto che il mio albero avrà un asterisco in alto
+  // dopo console logo gli asterischi e uso il metodo repeat() per consologgare tante volte quante il ciclo
 };
 halfTree(3);
 
@@ -725,7 +727,7 @@ halfTree(3);
   *****
 
 */
-
+//il procedimento è lo stesso solo bisognerebbe considerare gli spazi
 /* ESERCIZIO 29
   Crea una funzione chiamata "isItPrime" che riceve un numero come parametro e ritorna true se il numero fornito è un numero primo.
 */
